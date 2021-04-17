@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #reading the datasets from a file
-dataset = pd.read_csv('Position_Salaries.csv')       
+dataset = pd.read_csv('Position_Salaries(for_regression_practices).csv')       
 
 #making of x and y 
 x = dataset.iloc[: , 1:-1].values
