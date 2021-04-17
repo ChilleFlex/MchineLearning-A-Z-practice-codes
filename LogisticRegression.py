@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #reading the datasets from a file
-dataset = pd.read_csv('Social_Network_Ads.csv')       
+dataset = pd.read_csv('Social_Network_Ads(classification models).csv')       
 
 #making of x and y 
 x = dataset.iloc[: , 2:4].values
